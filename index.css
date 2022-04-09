@@ -14,13 +14,13 @@
 
 .logo-white{
     position: absolute;
-    left: calc(50% - 103px);
-    top: calc(50vh - 100px);
+    left: calc(50% - 88px);
+    top: calc(50vh - 88px);
 }
 
 .logo-white img{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 }
 
 .home .menu{
