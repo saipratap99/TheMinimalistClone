@@ -22,6 +22,7 @@
 
 .ball-div{
     position: absolute;
+    display: inline-block;
 }
 
 .ball{
@@ -31,8 +32,7 @@
     border-radius: 50%;
     background-color: #4e4369;
     position: absolute;
-    left: 518px;
-    top: -60;
+    left: 22px;
     animation: moving-ball;
     animation-duration: 2s;
     animation-timing-function: ease;
