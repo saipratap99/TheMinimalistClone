@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.get-in-touch-form .grid-row{
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
 textarea.input{
     background-color: transparent;

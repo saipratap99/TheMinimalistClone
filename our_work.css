@@ -85,19 +85,19 @@
 
 
 @media screen and (max-width: 1300px) {
-    .grid-row{
+    .container.our-work .grid-row{
         grid-template-columns: auto auto auto;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .our-work .grid-row{
+    .container.our-work .grid-row{
         grid-template-columns: auto auto;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .our-work .grid-row{
+    .container.our-work .grid-row{
         grid-template-columns: auto;
     }
 }

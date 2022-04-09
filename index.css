@@ -1,3 +1,9 @@
+.container.home{
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 20px);
+}
+
 .home{
     height: 100%;
 }
@@ -7,7 +13,6 @@
     left: calc(50% - 103px);
     top: calc(50vh - 100px);
 }
-
 
 .logo-white img{
     width: 200px;
@@ -30,38 +35,38 @@
     transition-duration: 1s;
 }
 
-.about{
+.about-item{
     color: white;
     background-color: #353d47;
 }
 
-.about:hover{
+.about-item:hover{
     background-color: #556270;
 }
 
-.our-work{
+.our-work-item{
     background-color: #4ecdc4;
     color: white;
 }
 
-.our-work:hover{
+.our-work-item:hover{
     background-color: #368d87;
 }
 
-.get-in-touch{
+.get-in-touch-item{
     background-color: #c7f464;
     color: white;
 }
 
-.get-in-touch:hover{
+.get-in-touch-item:hover{
     background-color: #93b44a;
 }
 
-.our-services{
+.our-services-item{
     color: white;
     background-color: #ff6b6b;
 }
 
-.our-services:hover{
+.our-services-item:hover{
     background-color: #bf5050;
 }

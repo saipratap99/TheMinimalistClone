@@ -55,11 +55,6 @@ p{
     box-sizing: border-box;
 }
 
-.grid-row{
-    margin-top: 20px;
-    gap: 10px;
-}
-
 .grid-50{
     grid-template-columns: 50% 50%;
 }
@@ -130,4 +125,28 @@ p{
 .btn:hover{
     background-color: #5e6161;
     color: white;
+}
+
+.container.home{
+    display: none;
+}
+
+.container.about-us{
+    display: none;
+}
+
+.container.our-work{
+    display: none;
+}
+
+.container.get-in-touch{
+    display: none;
+}
+
+.container.our-services{
+    display: none;
+}
+
+.active{
+    display: block !important;
 }
