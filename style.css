@@ -154,18 +154,37 @@ p{
     display: block !important;
 }
 
+.back-arrow{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    right: 25px;
+    bottom: 25px;
+    z-index: 199;
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible !important;
+}
+/*
 .about-us, .our-work, .our-services, .get-in-touch{
     position: relative;
     animation: dispAnimation;
     animation-duration: 1s;
     animation-timing-function: ease;
 }
+*/
 
 .animate-section{
     position: relative;
     animation: dispAnimation;
     animation-duration: 1s;
     animation-timing-function: ease;
+}
+
+.animate-section-reverse{
+    animation-direction: reverse;
 }
 
 @keyframes dispAnimation {

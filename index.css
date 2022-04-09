@@ -40,6 +40,10 @@
     width: 100%;
 }
 
+.clients{
+    margin-top: 60px;
+}
+
 .about-item{
     color: white;
     background-color: #353d47;
