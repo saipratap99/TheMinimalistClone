@@ -127,6 +127,7 @@ p{
     color: white;
 }
 
+
 .container.home{
     display: none;
 }
@@ -149,4 +150,22 @@ p{
 
 .active{
     display: block !important;
+}
+
+.about-us, .our-work, .our-services, .get-in-touch{
+    position: relative;
+    animation: dispAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes dispAnimation {
+    0%{
+        left: -1600px;
+        transform: rotate(70deg);
+    }
+    to{
+        left: 0;
+        transform: rotate(0deg);
+    }
 }
