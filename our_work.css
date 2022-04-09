@@ -84,20 +84,3 @@
 }
 
 
-@media screen and (max-width: 1300px) {
-    .container.our-work .grid-row{
-        grid-template-columns: auto auto auto;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .container.our-work .grid-row{
-        grid-template-columns: auto auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .container.our-work .grid-row{
-        grid-template-columns: auto;
-    }
-}

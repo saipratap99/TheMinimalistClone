@@ -8,6 +8,10 @@
     height: 100%;
 }
 
+.menu .grid-row{
+    grid-template-columns: 50% 50%;
+}
+
 .logo-white{
     position: absolute;
     left: calc(50% - 103px);
@@ -33,6 +37,7 @@
     justify-content: center;
     transition-timing-function: ease;
     transition-duration: 1s;
+    width: 100%;
 }
 
 .about-item{
