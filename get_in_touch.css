@@ -19,11 +19,6 @@ textarea.input{
     margin-top: 20px;
 }
 
-.grid-row{
-    margin-top: 20px;
-    gap: 10px;
-}
-
 .submit-btn .btn-lg{
   width: 100%;
 }

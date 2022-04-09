@@ -1,11 +1,6 @@
-.grid-row{
-    grid-template-columns: auto auto auto auto;
+.our-work .grid-4{
     gap: 10px;
     margin-top: 20px;
-}
-
-.btn-xlg{
-   width: 25%;
 }
 
 .company{
@@ -96,13 +91,13 @@
 }
 
 @media screen and (max-width: 900px) {
-    .grid-row{
+    .our-work .grid-row{
         grid-template-columns: auto auto;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .grid-row{
+    .our-work .grid-row{
         grid-template-columns: auto;
     }
 }

@@ -2,6 +2,18 @@
     font-family: 'Exo',Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+body{
+    border: 10px solid #5e6161;
+    box-sizing: border-box;
+}
+
+.triangle{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    left: calc(50% - 28.5px);
+}
+
 .container{
     padding-top: 80px;
     width: 80%;
@@ -43,12 +55,27 @@ p{
     box-sizing: border-box;
 }
 
+.grid-row{
+    margin-top: 20px;
+    gap: 10px;
+}
+
 .grid-50{
     grid-template-columns: 50% 50%;
 }
 
 .grid-2{
     grid-template-columns: auto auto;
+}
+
+.grid-3{
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.grid-4{
+    grid-template-columns: auto auto auto auto;
 }
 
 .col-6{
@@ -85,6 +112,10 @@ p{
     border: 5px solid #5e6161;
     color: #5e6161;
     font-weight: 700;
+}
+
+.btn-xlg{
+    width: 25%;
 }
 
 .btn-lg{

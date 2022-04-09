@@ -1,16 +1,3 @@
-body{
-    border: 10px solid #5e6161;
-    box-sizing: border-box;
-    height: 100vh;
-}
-
-.triangle{
-    position: absolute;
-    display: block;
-    margin-left: auto;
-    left: calc(50% - 28.5px);
-}
-
 .home{
     height: 100%;
 }
@@ -35,7 +22,7 @@ body{
     height: 100%;
 }
 
-.col{
+.item{
     display: flex;
     align-items: center;
     justify-content: center;
