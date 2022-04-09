@@ -159,6 +159,13 @@ p{
     animation-timing-function: ease;
 }
 
+.animate-section{
+    position: relative;
+    animation: dispAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
 @keyframes dispAnimation {
     0%{
         left: -1600px;
