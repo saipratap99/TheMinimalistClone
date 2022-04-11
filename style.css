@@ -184,6 +184,10 @@ p{
 }
 
 .animate-section-reverse{
+    position: relative;
+    animation: dispAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
     animation-direction: reverse;
 }
 
@@ -198,3 +202,299 @@ p{
     }
 }
 
+/* Home page syle */
+
+.container.home{
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 20px);
+}
+
+.home{
+    height: 100%;
+}
+
+.menu .grid-row{
+    grid-template-columns: 50% 50%;
+}
+
+.logo-white{
+    position: absolute;
+    left: calc(50% - 88px);
+    top: calc(50vh - 88px);
+}
+
+.logo-white img{
+    width: 175px;
+    height: 175px;
+}
+
+.home .menu{
+    height: 100%;
+}
+
+.home .menu .grid-row{
+    height: 100%;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    width: 100%;
+}
+
+.clients{
+    margin-top: 60px;
+}
+
+.about-item{
+    color: white;
+    background-color: #353d47;
+}
+
+.about-item:hover{
+    background-color: #556270;
+}
+
+.our-work-item{
+    background-color: #4ecdc4;
+    color: white;
+}
+
+.our-work-item:hover{
+    background-color: #368d87;
+}
+
+.get-in-touch-item{
+    background-color: #c7f464;
+    color: white;
+}
+
+.get-in-touch-item:hover{
+    background-color: #93b44a;
+}
+
+.our-services-item{
+    color: white;
+    background-color: #ff6b6b;
+}
+
+.our-services-item:hover{
+    background-color: #bf5050;
+}
+
+/* home page style ends here */
+
+/* About us */
+
+.person{
+    display: block;
+    margin: 20px auto;
+    width: 210px;
+    height: 230px;
+    border: 4px solid black;
+    margin-bottom: 30px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+.contact img{
+    margin-right: 15px;
+}
+
+.contact a{
+    font-family: 'Exo';
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+img.client{
+    width: 200px;
+    height: 200px;
+}
+
+/* About us styles ends here */
+
+/* Our work */
+
+.our-work .grid-4{
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.company{
+    width: 230px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px;
+    border: 5px solid #c7c7c7;
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+}
+
+.company:hover{
+    border-color: #7a7a7a;
+}
+
+.amazon{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e472844ee8bd5d51a765_amazon.png");    
+}
+
+.amazon:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e47c844ee8bd5d51a766_amazon_color.png");
+}
+
+.ebay{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e354844ee8bd5d51a74f_ebay.png");
+}
+
+.ebay:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3729aa206b10aa0b691_ebay_color.png");
+}
+
+.bitcoin{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3ad844ee8bd5d51a755_bitcoin.png");
+}
+
+.bitcoin:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3ba844ee8bd5d51a756_bitcoin_color.png");
+}
+
+.jquery{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3c5844ee8bd5d51a759_jquery.png");
+}
+
+.jquery:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3e19aa206b10aa0b695_jquery_color.png");
+}
+
+.ms{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3eb2b03adb00ae93f62_microsoft.png");
+}
+
+.ms:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e3fb2b03adb00ae93f64_microsoft_color.png");
+}
+
+.yahoo{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e4042b03adb00ae93f65_yahoo.png");
+}
+
+.yahoo:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e40f844ee8bd5d51a762_yahoo_color.png");
+}
+
+.ww{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e4192b03adb00ae93f66_volks.png");
+}
+
+.ww:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e425fd1016be5d473c52_volks_color.png");
+}
+
+.yt{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e42dfd1016be5d473c54_youtube.png");
+}
+
+.yt:hover{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/54b1ee8f844ee8bd5d519be8/54b2e438fd1016be5d473c55_youtube_color.png");
+}
+
+
+/* Our work styles end here */
+
+/* Get in touch */
+
+.input{
+    background-color: #d6d6d6;
+    display: block;
+    width: 98%;
+    font-size: 24px;
+    padding: 10px 2px 10px 15px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.get-in-touch-form .grid-row{
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+textarea.input{
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid #d6d6d6;
+}
+
+.submit-btn{
+    margin-top: 20px;
+}
+
+.submit-btn .btn-lg{
+  width: 100%;
+}
+
+/* Get in touch styles ends here */
+
+/* Our services */
+
+.left-content{
+    text-align: right;
+    padding: 40px 35px 40px 0;
+    border-right: 1px dotted gray;
+}
+
+.right-content{
+    text-align: left;
+    padding: 40px 0px 40px 35px;
+    margin-left: auto;
+}
+
+.why-us h2{
+    font-weight: 500;
+    background-color: #4e4369;
+    color: white;
+    padding: 50px 15px;
+    width: 140px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.ball-div{
+    position: absolute;
+    display: inline-block;
+}
+
+.ball{
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4e4369;
+    position: absolute;
+    left: 22px;
+    animation: moving-ball;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-direction: alternate; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes moving-ball {
+    from{top: -60px;}
+    to{top: 140px;}
+}
+
+/* Our services styles ends here */
